@@ -2,6 +2,8 @@
 
 A responsive student developer portfolio built with React, TypeScript, and Vite.
 
+**Live portfolio:** https://student-developer-portfolio-vm1sqi.v2.appdeploy.ai/
+
 ## Run locally
 
 1. Install Node.js 20 or newer.
@@ -20,4 +22,3 @@ A responsive student developer portfolio built with React, TypeScript, and Vite.
 ## Publish with GitHub Pages
 
 The workflow in `.github/workflows/deploy.yml` builds and publishes the site whenever changes reach the `main` branch. In the GitHub repository settings, enable Pages with **GitHub Actions** as the build and deployment source.
-
