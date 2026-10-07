@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Navigate the portfolio and switch its saved theme",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "section navigation",
+      "active section indication",
+      "theme switching",
+      "theme persistence"
+    ],
+    "description": "Checks primary navigation and verifies the chosen appearance survives a reload.",
+    "steps": [
+      "Open the portfolio and choose the light theme",
+      "Navigate to the Skills section",
+      "Refresh the page"
+    ],
+    "expected": "Skills is reachable, navigation indicates the active section, and the light theme remains selected."
+  },
+  {
+    "name": "Validate the contact form on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "mobile navigation",
+      "contact form validation",
+      "message delivery transparency"
+    ],
+    "description": "Verifies the small-screen menu works and the contact form validates without claiming to send.",
+    "steps": [
+      "Open the mobile navigation and choose Contact",
+      "Submit with required fields empty",
+      "Enter valid details and submit again"
+    ],
+    "expected": "The form reports invalid details, then confirms valid details while stating that delivery is not configured."
+  },
+  {
+    "name": "Review portfolio placeholders and personal photo gallery",
+    "viewport": "desktop",
+    "covers": [
+      "project placeholders",
+      "education placeholders",
+      "contact placeholders",
+      "skills without proficiency ratings",
+      "personal photo gallery"
+    ],
+    "description": "Checks editable details and confirms the supplied study, portrait, and desk photos appear in the learning gallery.",
+    "steps": [
+      "Review the sample project cards",
+      "Review institution and education date fields",
+      "Scroll to the personal photo gallery and review its images",
+      "Review contact details and skill categories"
+    ],
+    "expected": "Project and personal details remain labeled placeholders, skills have no ratings, and the gallery displays the supplied study, portrait, and desk images."
+  }
+]
